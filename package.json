@@ -1,10 +1,12 @@
 {
-  "homepage": "",
+  "homepage": "http://Jeksorx.github.io/StepikZadanie5",
   "name": "react-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "webpack serve --mode development",
     "build": "webpack --mode production"
   },
